@@ -20,8 +20,7 @@ public class CategoryServiceImpl implements ICategoryService {
 
     @Override
     public Iterable<Category> findAll() {
-        return this.categoryRepository.findAllCategories();
-    }
+     
 
     @Override
     public Optional<Category> findById(UUID id) {
